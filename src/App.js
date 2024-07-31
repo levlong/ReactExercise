@@ -11,7 +11,7 @@ export default function Root() {
               <Link to={`/day-1/1`}>Day01 - E1</Link>
             </li>
             <li>
-              <a href={`/day-1/2`}>Your Friend</a>
+              <Link to={`/day-1/2`}>Day01 - E2</Link>
             </li>
           </ul>
         </nav>
