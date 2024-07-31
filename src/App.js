@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Link, Outlet } from "react-router-dom";
 
-function App() {
+export default function Root() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div id="sidebar">
+        <h1>React Homework !</h1>
+       <nav>
+          <ul>
+            <li>
+              <Link to={`/day-1/1`}>Day01 - E1</Link>
+            </li>
+            <li>
+              <a href={`/day-1/2`}>Your Friend</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="detail">
+        <Outlet />
+      </div>
+    </>
   );
 }
-
-export default App;
