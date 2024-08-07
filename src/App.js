@@ -8,10 +8,16 @@ export default function Root() {
        <nav>
           <ul>
             <li>
-              <Link to={`/day-1/1`}>Day01 - E1</Link>
+              <Link to={`/day-1/E1`}>Day01 - E1</Link>
+            </li>
+             <li>
+              <Link to={`/day-1/E2`}>Day01 - E2</Link>
             </li>
             <li>
-              <Link to={`/day-1/2`}>Day01 - E2</Link>
+              <Link to={`/day-2/E1`}>Day02 - E1</Link>
+            </li>
+            <li>
+              <Link to={`/day-2/E2`}>Day02 - E2</Link>
             </li>
           </ul>
         </nav>

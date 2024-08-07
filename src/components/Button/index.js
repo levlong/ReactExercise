@@ -1,5 +1,5 @@
 import { IconContext } from "react-icons";
-import "./button.css";
+import "./style.css";
 
 export default function Button({text, styleClass, icon: Icon, iconPosition = 'left', onClick }) {
     return (

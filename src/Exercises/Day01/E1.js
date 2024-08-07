@@ -1,5 +1,5 @@
-import Button from "../../components/Button/Button";
-import Container from "../../components/Container/Container";
+import Button from "../../components/Button";
+import Container from "../../components/Container";
 import { FaApple, FaGoogle, FaFacebook, FaArrowRight } from "react-icons/fa";
 
 export default function E1() {
